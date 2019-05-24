@@ -1,0 +1,16 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}实验目的}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}寄存器堆（Register File）}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}计数器（Counter）}{2}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}FIFO}{2}{subsection.1.3}
+\contentsline {section}{\numberline {2}实验环境}{3}{section.2}
+\contentsline {section}{\numberline {3}逻辑设计}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Regfile Design}{3}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Counter Design}{3}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}FIFO\_q Design}{3}{subsection.3.3}
+\contentsline {section}{\numberline {4}仿真截图}{5}{section.4}
+\contentsline {section}{\numberline {5}性能评测截图}{6}{section.5}
+\contentsline {section}{\numberline {6}实验代码}{8}{section.6}
+\contentsline {subsection}{\numberline {6.1}Regfile 代码}{8}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Counter 代码}{10}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}FIFO 代码}{13}{subsection.6.3}

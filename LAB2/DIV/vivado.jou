@@ -1,0 +1,119 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Mar 24 10:21:37 2019
+# Process ID: 4544
+# Current directory: F:/Study/Subject_L/COD_LAB/LAB2/DIV
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9636 F:\Study\Subject_L\COD_LAB\LAB2\DIV\DIV.xpr
+# Log file: F:/Study/Subject_L/COD_LAB/LAB2/DIV/vivado.log
+# Journal file: F:/Study/Subject_L/COD_LAB/LAB2/DIV\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/Study/Subject_L/COD_LAB/LAB2/DIV/DIV.xpr
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse F:/Study/Subject_L/COD_LAB/LAB2/DIV/Nexys4DDR_Master.xdc
+file mkdir F:/Study/Subject_L/COD_LAB/LAB2/DIV/DIV.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open F:/Study/Subject_L/COD_LAB/LAB2/DIV/DIV.srcs/sim_1/new/DIV_tb.v w ]
+add_files -fileset sim_1 F:/Study/Subject_L/COD_LAB/LAB2/DIV/DIV.srcs/sim_1/new/DIV_tb.v
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse F:/Study/Subject_L/COD_LAB/LAB2/DIV/DEFINE.v
+update_compile_order -fileset sim_1
+launch_simulation
+source CMP.tcl
+close_sim
+launch_simulation
+source CMP.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top DIV [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source CMP.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top DIV_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source DIV_tb.tcl
+close_sim
+launch_simulation
+source DIV_tb.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source DIV_tb.tcl
+close_sim
+launch_simulation
+source DIV_tb.tcl
+close_sim
+launch_simulation
+source DIV_tb.tcl
+close_sim
+launch_simulation
+source DIV_tb.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source DIV_tb.tcl
+export_ip_user_files -of_objects  [get_files F:/Study/Subject_L/COD_LAB/LAB2/DIV/CMP.v] -no_script -reset -force -quiet
+remove_files  F:/Study/Subject_L/COD_LAB/LAB2/DIV/CMP.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top divider_module [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_simulation
+source divider_module_tb.tcl
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+update_compile_order -fileset sources_1
+current_sim simulation_10
+launch_simulation
+source divider_module_tb.tcl
+close_sim
+launch_simulation
+source divider_module_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top DIV [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source divider_module_tb.tcl
+close_sim
+launch_simulation
+source divider_module_tb.tcl
+close_sim
+launch_simulation
+source divider_module_tb.tcl
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+report_utilization -name utilization_1
+close_design
+close_sim
+current_sim simulation_10
+close_sim
+close_sim

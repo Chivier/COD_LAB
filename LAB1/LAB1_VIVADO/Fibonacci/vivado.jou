@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Mar 21 21:25:39 2019
+# Process ID: 2856
+# Current directory: F:/Study/Subject_L/COD_LAB/LAB1/Fibonacci
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12300 F:\Study\Subject_L\COD_LAB\LAB1\Fibonacci\Fibonacci.xpr
+# Log file: F:/Study/Subject_L/COD_LAB/LAB1/Fibonacci/vivado.log
+# Journal file: F:/Study/Subject_L/COD_LAB/LAB1/Fibonacci\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/Study/Subject_L/COD_LAB/LAB1/Fibonacci/Fibonacci.xpr
+oupdate_compile_order -fileset update_comcreate_project Adder F:/Study/Subject_L/COD_LAB/LAB1/Adder -part xc7a100tcsg324-1
+current_project Fibonacci
+close_project

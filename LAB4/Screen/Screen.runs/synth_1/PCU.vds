@@ -1,0 +1,560 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Apr 18 10:59:43 2019
+# Process ID: 3516
+# Current directory: F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.runs/synth_1
+# Command line: vivado.exe -log PCU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PCU.tcl
+# Log file: F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.runs/synth_1/PCU.vds
+# Journal file: F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source PCU.tcl -notrace
+Command: synth_design -top PCU -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10564 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 446.496 ; gain = 99.559
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'PCU' [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:8]
+INFO: [Synth 8-6157] synthesizing module 'BCD27' [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/BCD27.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'BCD27' (1#1) [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/BCD27.v:3]
+INFO: [Synth 8-155] case statement is not full and has no default [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:386]
+INFO: [Synth 8-6157] synthesizing module 'DCU' [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/DCU.v:7]
+INFO: [Synth 8-6157] synthesizing module 'VRAM' [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/VRAM.v:7]
+INFO: [Synth 8-6157] synthesizing module 'dist_mem_gen_0' [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.runs/synth_1/.Xil/Vivado-3516-DESKTOP-M866AGS/realtime/dist_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dist_mem_gen_0' (2#1) [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.runs/synth_1/.Xil/Vivado-3516-DESKTOP-M866AGS/realtime/dist_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'VRAM' (3#1) [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/VRAM.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'DCU' (4#1) [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/DCU.v:7]
+WARNING: [Synth 8-6014] Unused sequential element clk1_reg was removed.  [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:378]
+WARNING: [Synth 8-5788] Register Movex_reg in module PCU is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:91]
+WARNING: [Synth 8-3848] Net Q[7] in module/entity PCU does not have driver. [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:47]
+WARNING: [Synth 8-3848] Net Q[3] in module/entity PCU does not have driver. [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'PCU' (5#1) [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:8]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 500.633 ; gain = 153.695
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin B3:m[3] to constant 0 [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:348]
+WARNING: [Synth 8-3295] tying undriven pin B3:m[2] to constant 0 [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:348]
+WARNING: [Synth 8-3295] tying undriven pin B3:m[1] to constant 0 [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:348]
+WARNING: [Synth 8-3295] tying undriven pin B3:m[0] to constant 0 [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:348]
+WARNING: [Synth 8-3295] tying undriven pin B7:m[3] to constant 0 [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:352]
+WARNING: [Synth 8-3295] tying undriven pin B7:m[2] to constant 0 [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:352]
+WARNING: [Synth 8-3295] tying undriven pin B7:m[1] to constant 0 [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:352]
+WARNING: [Synth 8-3295] tying undriven pin B7:m[0] to constant 0 [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:352]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 500.633 ; gain = 153.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 500.633 ; gain = 153.695
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [f:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0/dist_mem_gen_0_in_context.xdc] for cell 'Screen/Ld/St'
+Finished Parsing XDC File [f:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0/dist_mem_gen_0_in_context.xdc] for cell 'Screen/Ld/St'
+Parsing XDC File [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Nexys4DDR_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Nexys4DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/PCU_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/PCU_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 858.270 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:22 . Memory (MB): peak = 858.270 ; gain = 511.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:22 . Memory (MB): peak = 858.270 ; gain = 511.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for Screen/Ld/St. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:22 . Memory (MB): peak = 858.270 ; gain = 511.332
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "CounterY" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "ldmove" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "lumove" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "llmove" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "lrmove" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+WARNING: [Synth 8-327] inferring latch for variable 'color_reg' [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/DCU.v:89]
+WARNING: [Synth 8-327] inferring latch for variable 'an_reg' [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:388]
+WARNING: [Synth 8-327] inferring latch for variable 'seg_reg' [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:389]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 858.270 ; gain = 511.332
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'B3' (BCD27) to 'B7'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 2     
+	   3 Input      9 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 4     
+	               20 Bit    Registers := 2     
+	               14 Bit    Registers := 4     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 4     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 8     
+	   2 Input     20 Bit        Muxes := 2     
+	   2 Input     14 Bit        Muxes := 4     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 33    
+	   8 Input      8 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 44    
+	   2 Input      1 Bit        Muxes := 96    
+	   8 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module PCU 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+	               14 Bit    Registers := 4     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 4     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 8     
+	   2 Input     14 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 33    
+	   8 Input      8 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 44    
+	   2 Input      1 Bit        Muxes := 93    
+	   8 Input      1 Bit        Muxes := 1     
+Module DCU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 2     
+	   3 Input      9 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 2     
++---Registers : 
+	               20 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "CounterY" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-4471] merging register 'num_reg[3:0]' into 'num_reg[3:0]' [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:380]
+WARNING: [Synth 8-6014] Unused sequential element num_reg was removed.  [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:380]
+INFO: [Synth 8-5545] ROM "lumove" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "ldmove" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "lrmove" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "llmove" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+DSP Report: Generating DSP cu0, operation Mode is: C+1.
+DSP Report: operator cu0 is absorbed into DSP cu0.
+DSP Report: Generating DSP lumove2, operation Mode is: C+A:B.
+DSP Report: operator lumove2 is absorbed into DSP lumove2.
+DSP Report: Generating DSP cd0, operation Mode is: C+1.
+DSP Report: operator cd0 is absorbed into DSP cd0.
+DSP Report: Generating DSP cl0, operation Mode is: C+1.
+DSP Report: operator cl0 is absorbed into DSP cl0.
+DSP Report: Generating DSP cr0, operation Mode is: C+1.
+DSP Report: operator cr0 is absorbed into DSP cr0.
+DSP Report: Generating DSP Xcor3, operation Mode is: C+A:B.
+DSP Report: operator Xcor3 is absorbed into DSP Xcor3.
+DSP Report: Generating DSP Xcor1, operation Mode is: PCIN+A:B.
+DSP Report: operator Xcor1 is absorbed into DSP Xcor1.
+DSP Report: Generating DSP Xcor2, operation Mode is: C+A:B.
+DSP Report: operator Xcor2 is absorbed into DSP Xcor2.
+DSP Report: Generating DSP Xcor2, operation Mode is: C+A:B.
+DSP Report: operator Xcor2 is absorbed into DSP Xcor2.
+DSP Report: Generating DSP Xcor2, operation Mode is: PCIN+A:B.
+DSP Report: operator Xcor2 is absorbed into DSP Xcor2.
+DSP Report: Generating DSP Xcor2, operation Mode is: C+A:B.
+DSP Report: operator Xcor2 is absorbed into DSP Xcor2.
+DSP Report: Generating DSP lumove0, operation Mode is: C+(A:0x0):B.
+DSP Report: operator lumove0 is absorbed into DSP lumove0.
+DSP Report: Generating DSP lumove0, operation Mode is: C+A:B.
+DSP Report: operator lumove0 is absorbed into DSP lumove0.
+DSP Report: Generating DSP ldmove2, operation Mode is: C+A:B.
+DSP Report: operator ldmove2 is absorbed into DSP ldmove2.
+DSP Report: Generating DSP ldmove0, operation Mode is: C+(A:0x0):B.
+DSP Report: operator ldmove0 is absorbed into DSP ldmove0.
+DSP Report: Generating DSP ldmove0, operation Mode is: C+A:B.
+DSP Report: operator ldmove0 is absorbed into DSP ldmove0.
+DSP Report: Generating DSP Xcor1, operation Mode is: C+1.
+DSP Report: operator Xcor1 is absorbed into DSP Xcor1.
+DSP Report: Generating DSP Xcor1, operation Mode is: C+A:B.
+DSP Report: operator Xcor1 is absorbed into DSP Xcor1.
+DSP Report: Generating DSP lrmove2, operation Mode is: C+A:B.
+DSP Report: operator lrmove2 is absorbed into DSP lrmove2.
+DSP Report: Generating DSP lrmove0, operation Mode is: C+(A:0x0):B.
+DSP Report: operator lrmove0 is absorbed into DSP lrmove0.
+DSP Report: Generating DSP lrmove0, operation Mode is: C+A:B.
+DSP Report: operator lrmove0 is absorbed into DSP lrmove0.
+DSP Report: Generating DSP llmove2, operation Mode is: C+A:B.
+DSP Report: operator llmove2 is absorbed into DSP llmove2.
+DSP Report: Generating DSP llmove0, operation Mode is: C+(A:0x0):B.
+DSP Report: operator llmove0 is absorbed into DSP llmove0.
+DSP Report: Generating DSP llmove0, operation Mode is: C+A:B.
+DSP Report: operator llmove0 is absorbed into DSP llmove0.
+DSP Report: Generating DSP Ycor1, operation Mode is: C+A:B.
+DSP Report: operator Ycor1 is absorbed into DSP Ycor1.
+DSP Report: Generating DSP Ycor1, operation Mode is: C+1.
+DSP Report: operator Ycor1 is absorbed into DSP Ycor1.
+DSP Report: Generating DSP count_reg, operation Mode is: (P+1)'.
+DSP Report: register count_reg is absorbed into DSP count_reg.
+DSP Report: operator count0 is absorbed into DSP count_reg.
+DSP Report: Generating DSP num_reg, operation Mode is: (P+1)'.
+DSP Report: register num_reg is absorbed into DSP num_reg.
+DSP Report: operator num1 is absorbed into DSP num_reg.
+WARNING: [Synth 8-3332] Sequential element (an_reg[7]) is unused and will be removed from module PCU.
+WARNING: [Synth 8-3332] Sequential element (an_reg[6]) is unused and will be removed from module PCU.
+WARNING: [Synth 8-3332] Sequential element (an_reg[5]) is unused and will be removed from module PCU.
+WARNING: [Synth 8-3332] Sequential element (an_reg[4]) is unused and will be removed from module PCU.
+WARNING: [Synth 8-3332] Sequential element (an_reg[3]) is unused and will be removed from module PCU.
+WARNING: [Synth 8-3332] Sequential element (an_reg[2]) is unused and will be removed from module PCU.
+WARNING: [Synth 8-3332] Sequential element (an_reg[1]) is unused and will be removed from module PCU.
+WARNING: [Synth 8-3332] Sequential element (an_reg[0]) is unused and will be removed from module PCU.
+WARNING: [Synth 8-3332] Sequential element (seg_reg[6]) is unused and will be removed from module PCU.
+WARNING: [Synth 8-3332] Sequential element (seg_reg[5]) is unused and will be removed from module PCU.
+WARNING: [Synth 8-3332] Sequential element (seg_reg[4]) is unused and will be removed from module PCU.
+WARNING: [Synth 8-3332] Sequential element (seg_reg[3]) is unused and will be removed from module PCU.
+WARNING: [Synth 8-3332] Sequential element (seg_reg[2]) is unused and will be removed from module PCU.
+WARNING: [Synth 8-3332] Sequential element (seg_reg[1]) is unused and will be removed from module PCU.
+WARNING: [Synth 8-3332] Sequential element (seg_reg[0]) is unused and will be removed from module PCU.
+WARNING: [Synth 8-3332] Sequential element (Movex_reg[3]) is unused and will be removed from module PCU.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 858.270 ; gain = 511.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|PCU         | C+1         | -      | -      | 32     | -      | 32     | -    | -    | 0    | -    | -     | 0    | 0    | 
+|PCU         | C+A:B       | 14     | 18     | 32     | -      | 32     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|PCU         | C+1         | -      | -      | 32     | -      | 32     | -    | -    | 0    | -    | -     | 0    | 0    | 
+|PCU         | C+1         | -      | -      | 32     | -      | 32     | -    | -    | 0    | -    | -     | 0    | 0    | 
+|PCU         | C+1         | -      | -      | 32     | -      | 32     | -    | -    | 0    | -    | -     | 0    | 0    | 
+|PCU         | C+A:B       | 14     | 18     | 32     | -      | 32     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|PCU         | PCIN+A:B    | 14     | 18     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|PCU         | C+A:B       | 14     | 18     | 32     | -      | 32     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|PCU         | C+A:B       | 14     | 18     | 32     | -      | 32     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|PCU         | PCIN+A:B    | 14     | 18     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|PCU         | C+A:B       | 14     | 18     | 32     | -      | 32     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|PCU         | C+(A:0x0):B | 30     | 2      | 14     | -      | 14     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|PCU         | C+A:B       | 30     | 18     | 14     | -      | 14     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|PCU         | C+A:B       | 14     | 18     | 32     | -      | 32     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|PCU         | C+(A:0x0):B | 30     | 2      | 14     | -      | 14     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|PCU         | C+A:B       | 30     | 18     | 14     | -      | 14     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|PCU         | C+1         | -      | -      | 8      | -      | 8      | -    | -    | 0    | -    | -     | 0    | 0    | 
+|PCU         | C+A:B       | 30     | 18     | 8      | -      | 8      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|PCU         | C+A:B       | 14     | 18     | 32     | -      | 32     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|PCU         | C+(A:0x0):B | 30     | 2      | 14     | -      | 14     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|PCU         | C+A:B       | 30     | 18     | 14     | -      | 14     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|PCU         | C+A:B       | 14     | 18     | 32     | -      | 32     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|PCU         | C+(A:0x0):B | 30     | 2      | 14     | -      | 14     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|PCU         | C+A:B       | 30     | 18     | 14     | -      | 14     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|PCU         | C+A:B       | 30     | 18     | 8      | -      | 8      | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|PCU         | C+1         | -      | -      | 8      | -      | 8      | -    | -    | 0    | -    | -     | 0    | 0    | 
+|PCU         | (P+1)'      | -      | -      | -      | -      | 31     | -    | -    | -    | -    | -     | 0    | 1    | 
+|PCU         | (P+1)'      | -      | -      | -      | -      | 3      | -    | -    | -    | -    | -     | 0    | 1    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:73]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:73]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:74]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:76]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:75]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:74]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:74]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:76]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:75]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:75]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:73]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:73]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:75]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:75]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:73]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:76]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:76]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:74]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:78]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:78]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:74]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:77]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:77]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:68]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:68]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:75]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:80]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:80]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:76]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:79]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:79]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:69]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:69]
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:44 . Memory (MB): peak = 914.488 ; gain = 567.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:54 . Memory (MB): peak = 1033.281 ; gain = 686.344
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:73]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:73]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:74]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:76]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:75]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:74]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:74]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:76]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:75]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:75]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:73]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:73]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:75]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:75]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:73]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:76]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:76]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:74]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:78]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:78]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:74]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:77]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:77]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:68]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:68]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:75]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:80]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:80]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:76]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:79]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:79]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:69]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:69]
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:48 ; elapsed = 00:00:59 . Memory (MB): peak = 1046.590 ; gain = 699.652
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5365] Flop Screen/vga_HS_reg is being inverted and renamed to Screen/vga_HS_reg_inv.
+INFO: [Synth 8-5365] Flop Screen/vga_VS_reg is being inverted and renamed to Screen/vga_VS_reg_inv.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:52 ; elapsed = 00:01:03 . Memory (MB): peak = 1046.590 ; gain = 699.652
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:52 ; elapsed = 00:01:03 . Memory (MB): peak = 1046.590 ; gain = 699.652
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:54 ; elapsed = 00:01:05 . Memory (MB): peak = 1046.590 ; gain = 699.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:54 ; elapsed = 00:01:05 . Memory (MB): peak = 1046.590 ; gain = 699.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:54 ; elapsed = 00:01:05 . Memory (MB): peak = 1046.590 ; gain = 699.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:54 ; elapsed = 00:01:05 . Memory (MB): peak = 1046.590 ; gain = 699.652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------+----------+
+|      |BlackBox name  |Instances |
++------+---------------+----------+
+|1     |dist_mem_gen_0 |         1|
++------+---------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |dist_mem_gen_0 |     1|
+|2     |BUFG           |     2|
+|3     |CARRY4         |   146|
+|4     |DSP48E1        |     6|
+|5     |DSP48E1_1      |    16|
+|6     |DSP48E1_2      |     2|
+|7     |DSP48E1_3      |     2|
+|8     |DSP48E1_4      |     2|
+|9     |LUT1           |    79|
+|10    |LUT2           |   220|
+|11    |LUT3           |   408|
+|12    |LUT4           |   154|
+|13    |LUT5           |   123|
+|14    |LUT6           |   278|
+|15    |MUXF7          |     4|
+|16    |FDCE           |   244|
+|17    |FDPE           |     3|
+|18    |FDRE           |     6|
+|19    |LDC            |    12|
+|20    |IBUF           |    19|
+|21    |OBUF           |    29|
++------+---------------+------+
+
+Report Instance Areas: 
++------+---------+--------+------+
+|      |Instance |Module  |Cells |
++------+---------+--------+------+
+|1     |top      |        |  1767|
+|2     |  B0     |BCD27   |    15|
+|3     |  B1     |BCD27_0 |    15|
+|4     |  B4     |BCD27_1 |    16|
+|5     |  B5     |BCD27_2 |    13|
+|6     |  Screen |DCU     |   281|
+|7     |    Ld   |VRAM    |    34|
++------+---------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:54 ; elapsed = 00:01:05 . Memory (MB): peak = 1046.590 ; gain = 699.652
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 20 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:44 ; elapsed = 00:00:53 . Memory (MB): peak = 1046.590 ; gain = 342.016
+Synthesis Optimization Complete : Time (s): cpu = 00:00:54 ; elapsed = 00:01:05 . Memory (MB): peak = 1046.590 ; gain = 699.652
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 209 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'PCU' is not ideal for floorplanning, since the cellview 'PCU' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12 instances were transformed.
+  LDC => LDCE: 12 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+103 Infos, 33 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:01:10 . Memory (MB): peak = 1046.590 ; gain = 711.125
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.runs/synth_1/PCU.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file PCU_utilization_synth.rpt -pb PCU_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.121 . Memory (MB): peak = 1046.590 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 18 11:01:28 2019...

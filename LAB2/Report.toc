@@ -1,0 +1,18 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}实验目的}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}排序}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}除法运算}{2}{subsection.1.2}
+\contentsline {section}{\numberline {2}实验环境}{3}{section.2}
+\contentsline {section}{\numberline {3}逻辑设计}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Sort设计}{3}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Fibonacci设计和累计求和}{3}{subsection.3.2}
+\contentsline {section}{\numberline {4}仿真截图}{4}{section.4}
+\contentsline {section}{\numberline {5}性能评测截图}{5}{section.5}
+\contentsline {section}{\numberline {6}实验代码}{6}{section.6}
+\contentsline {subsection}{\numberline {6.1}Sort实现代码}{6}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}DIV实现代码}{9}{subsection.6.2}
+\contentsline {section}{\numberline {7}FSM实现}{12}{section.7}
+\contentsline {subsection}{\numberline {7.1}排序 FSM设计}{12}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}除法 FSM设计}{12}{subsection.7.2}
+\contentsline {section}{\numberline {8}三段式状态机代码}{13}{section.8}
+\contentsline {subsection}{\numberline {8.1}SortFSM实现代码}{13}{subsection.8.1}

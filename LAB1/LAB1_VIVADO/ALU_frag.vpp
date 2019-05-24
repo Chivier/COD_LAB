@@ -1,0 +1,233 @@
+#! /usr/bin/vvp
+:ivl_version "10.1 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x55a2e709d1f0 .scope module, "ALU_ADD" "ALU_ADD" 2 68;
+ .timescale 0 0;
+    .port_info 0 /INPUT 16 "A"
+    .port_info 1 /INPUT 16 "B"
+    .port_info 2 /OUTPUT 16 "C"
+    .port_info 3 /OUTPUT 1 "F"
+o0x7f94e1e8d018 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+v0x55a2e7087270_0 .net "A", 15 0, o0x7f94e1e8d018;  0 drivers
+o0x7f94e1e8d048 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+v0x55a2e70bee00_0 .net "B", 15 0, o0x7f94e1e8d048;  0 drivers
+v0x55a2e70beee0_0 .net "C", 15 0, L_0x55a2e70c38d0;  1 drivers
+v0x55a2e70befa0_0 .net "F", 0 0, L_0x55a2e70c3800;  1 drivers
+L_0x7f94e1e44060 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x55a2e70bf060_0 .net *"_s10", 0 0, L_0x7f94e1e44060;  1 drivers
+v0x55a2e70bf140_0 .net *"_s11", 16 0, L_0x55a2e70c3c70;  1 drivers
+v0x55a2e70bf220_0 .net *"_s3", 16 0, L_0x55a2e70c39a0;  1 drivers
+L_0x7f94e1e44018 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x55a2e70bf300_0 .net *"_s6", 0 0, L_0x7f94e1e44018;  1 drivers
+v0x55a2e70bf3e0_0 .net *"_s7", 16 0, L_0x55a2e70c3af0;  1 drivers
+L_0x55a2e70c3800 .part L_0x55a2e70c3c70, 16, 1;
+L_0x55a2e70c38d0 .part L_0x55a2e70c3c70, 0, 16;
+L_0x55a2e70c39a0 .concat [ 16 1 0 0], o0x7f94e1e8d018, L_0x7f94e1e44018;
+L_0x55a2e70c3af0 .concat [ 16 1 0 0], o0x7f94e1e8d048, L_0x7f94e1e44060;
+L_0x55a2e70c3c70 .arith/sum 17, L_0x55a2e70c39a0, L_0x55a2e70c3af0;
+S_0x55a2e7084210 .scope module, "ALU_AND" "ALU_AND" 2 12;
+ .timescale 0 0;
+    .port_info 0 /INPUT 16 "A"
+    .port_info 1 /INPUT 16 "B"
+    .port_info 2 /OUTPUT 16 "C"
+    .port_info 3 /OUTPUT 1 "F"
+o0x7f94e1e8d288 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+o0x7f94e1e8d2b8 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+L_0x55a2e70c3d10 .functor AND 16, o0x7f94e1e8d288, o0x7f94e1e8d2b8, C4<1111111111111111>, C4<1111111111111111>;
+v0x55a2e70bf540_0 .net "A", 15 0, o0x7f94e1e8d288;  0 drivers
+v0x55a2e70bf640_0 .net "B", 15 0, o0x7f94e1e8d2b8;  0 drivers
+v0x55a2e70bf720_0 .net "C", 15 0, L_0x55a2e70c3d10;  1 drivers
+L_0x7f94e1e440a8 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x55a2e70bf7e0_0 .net "F", 0 0, L_0x7f94e1e440a8;  1 drivers
+S_0x55a2e7084390 .scope module, "ALU_DIV" "ALU_DIV" 2 95;
+ .timescale 0 0;
+    .port_info 0 /INPUT 16 "A"
+    .port_info 1 /INPUT 16 "B"
+    .port_info 2 /OUTPUT 16 "C"
+    .port_info 3 /OUTPUT 1 "F"
+o0x7f94e1e8d408 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+v0x55a2e70bf950_0 .net "A", 15 0, o0x7f94e1e8d408;  0 drivers
+o0x7f94e1e8d438 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+v0x55a2e70bfa50_0 .net "B", 15 0, o0x7f94e1e8d438;  0 drivers
+v0x55a2e70bfb30_0 .net "C", 15 0, L_0x55a2e70c3f80;  1 drivers
+v0x55a2e70bfbf0_0 .net "F", 0 0, L_0x55a2e70c3e80;  1 drivers
+L_0x7f94e1e44138 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x55a2e70bfcb0_0 .net *"_s10", 0 0, L_0x7f94e1e44138;  1 drivers
+v0x55a2e70bfd90_0 .net *"_s11", 16 0, L_0x55a2e70c43c0;  1 drivers
+v0x55a2e70bfe70_0 .net *"_s3", 16 0, L_0x55a2e70c40a0;  1 drivers
+L_0x7f94e1e440f0 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x55a2e70bff50_0 .net *"_s6", 0 0, L_0x7f94e1e440f0;  1 drivers
+v0x55a2e70c0030_0 .net *"_s7", 16 0, L_0x55a2e70c41f0;  1 drivers
+L_0x55a2e70c3e80 .part L_0x55a2e70c43c0, 16, 1;
+L_0x55a2e70c3f80 .part L_0x55a2e70c43c0, 0, 16;
+L_0x55a2e70c40a0 .concat [ 16 1 0 0], o0x7f94e1e8d408, L_0x7f94e1e440f0;
+L_0x55a2e70c41f0 .concat [ 16 1 0 0], o0x7f94e1e8d438, L_0x7f94e1e44138;
+L_0x55a2e70c43c0 .arith/div 17, L_0x55a2e70c40a0, L_0x55a2e70c41f0;
+S_0x55a2e7086f70 .scope module, "ALU_LST" "ALU_LST" 2 42;
+ .timescale 0 0;
+    .port_info 0 /INPUT 16 "A"
+    .port_info 1 /INPUT 16 "B"
+    .port_info 2 /OUTPUT 16 "C"
+    .port_info 3 /OUTPUT 1 "F"
+o0x7f94e1e8d678 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+v0x55a2e70c0220_0 .net "A", 15 0, o0x7f94e1e8d678;  0 drivers
+o0x7f94e1e8d6a8 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+v0x55a2e70c0320_0 .net "B", 15 0, o0x7f94e1e8d6a8;  0 drivers
+v0x55a2e70c0400_0 .net "C", 15 0, L_0x55a2e70d4c80;  1 drivers
+v0x55a2e70c04c0_0 .net "F", 0 0, L_0x55a2e70d4a60;  1 drivers
+v0x55a2e70c0580_0 .net *"_s0", 15 0, L_0x55a2e70d45b0;  1 drivers
+L_0x7f94e1e44210 .functor BUFT 1, C4<01>, C4<0>, C4<0>, C4<0>;
+v0x55a2e70c0660_0 .net/2s *"_s10", 1 0, L_0x7f94e1e44210;  1 drivers
+L_0x7f94e1e44258 .functor BUFT 1, C4<00>, C4<0>, C4<0>, C4<0>;
+v0x55a2e70c0740_0 .net/2s *"_s12", 1 0, L_0x7f94e1e44258;  1 drivers
+v0x55a2e70c0820_0 .net *"_s14", 1 0, L_0x55a2e70d48c0;  1 drivers
+v0x55a2e70c0900_0 .net *"_s2", 0 0, L_0x55a2e70c4500;  1 drivers
+v0x55a2e70c0a70_0 .net *"_s20", 14 0, L_0x55a2e70d4b50;  1 drivers
+L_0x7f94e1e442a0 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x55a2e70c0b50_0 .net *"_s22", 0 0, L_0x7f94e1e442a0;  1 drivers
+L_0x7f94e1e44180 .functor BUFT 1, C4<000000000000000>, C4<0>, C4<0>, C4<0>;
+v0x55a2e70c0c30_0 .net *"_s4", 14 0, L_0x7f94e1e44180;  1 drivers
+L_0x7f94e1e441c8 .functor BUFT 1, C4<0000000000000000>, C4<0>, C4<0>, C4<0>;
+v0x55a2e70c0d10_0 .net/2u *"_s6", 15 0, L_0x7f94e1e441c8;  1 drivers
+v0x55a2e70c0df0_0 .net *"_s8", 0 0, L_0x55a2e70d46f0;  1 drivers
+L_0x55a2e70c4500 .part o0x7f94e1e8d678, 15, 1;
+L_0x55a2e70d45b0 .concat [ 1 15 0 0], L_0x55a2e70c4500, L_0x7f94e1e44180;
+L_0x55a2e70d46f0 .cmp/ne 16, L_0x55a2e70d45b0, L_0x7f94e1e441c8;
+L_0x55a2e70d48c0 .functor MUXZ 2, L_0x7f94e1e44258, L_0x7f94e1e44210, L_0x55a2e70d46f0, C4<>;
+L_0x55a2e70d4a60 .part L_0x55a2e70d48c0, 0, 1;
+L_0x55a2e70d4b50 .part o0x7f94e1e8d678, 0, 15;
+L_0x55a2e70d4c80 .concat [ 1 15 0 0], L_0x7f94e1e442a0, L_0x55a2e70d4b50;
+S_0x55a2e70870f0 .scope module, "ALU_MUT" "ALU_MUT" 2 86;
+ .timescale 0 0;
+    .port_info 0 /INPUT 16 "A"
+    .port_info 1 /INPUT 16 "B"
+    .port_info 2 /OUTPUT 16 "C"
+    .port_info 3 /OUTPUT 1 "F"
+o0x7f94e1e8d9d8 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+v0x55a2e70c0f30_0 .net "A", 15 0, o0x7f94e1e8d9d8;  0 drivers
+o0x7f94e1e8da08 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+v0x55a2e70c1030_0 .net "B", 15 0, o0x7f94e1e8da08;  0 drivers
+v0x55a2e70c1110_0 .net "C", 15 0, L_0x55a2e70d4e60;  1 drivers
+v0x55a2e70c11d0_0 .net "F", 0 0, L_0x55a2e70d4dc0;  1 drivers
+L_0x7f94e1e44330 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x55a2e70c1290_0 .net *"_s10", 0 0, L_0x7f94e1e44330;  1 drivers
+v0x55a2e70c1370_0 .net *"_s12", 16 0, L_0x55a2e70d51f0;  1 drivers
+v0x55a2e70c1450_0 .net *"_s3", 16 0, L_0x55a2e70d4f50;  1 drivers
+L_0x7f94e1e442e8 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x55a2e70c1530_0 .net *"_s6", 0 0, L_0x7f94e1e442e8;  1 drivers
+v0x55a2e70c1610_0 .net *"_s7", 16 0, L_0x55a2e70d5070;  1 drivers
+L_0x55a2e70d4dc0 .part L_0x55a2e70d51f0, 16, 1;
+L_0x55a2e70d4e60 .part L_0x55a2e70d51f0, 0, 16;
+L_0x55a2e70d4f50 .concat [ 16 1 0 0], o0x7f94e1e8d9d8, L_0x7f94e1e442e8;
+L_0x55a2e70d5070 .concat [ 16 1 0 0], o0x7f94e1e8da08, L_0x7f94e1e44330;
+L_0x55a2e70d51f0 .arith/mult 17, L_0x55a2e70d4f50, L_0x55a2e70d5070;
+S_0x55a2e7081110 .scope module, "ALU_NOT" "ALU_NOT" 2 22;
+ .timescale 0 0;
+    .port_info 0 /INPUT 16 "A"
+    .port_info 1 /INPUT 16 "B"
+    .port_info 2 /OUTPUT 16 "C"
+    .port_info 3 /OUTPUT 1 "F"
+o0x7f94e1e8dc48 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+L_0x55a2e70d5330 .functor NOT 16, o0x7f94e1e8dc48, C4<0000000000000000>, C4<0000000000000000>, C4<0000000000000000>;
+v0x55a2e70c1800_0 .net "A", 15 0, o0x7f94e1e8dc48;  0 drivers
+o0x7f94e1e8dc78 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+v0x55a2e70c1900_0 .net "B", 15 0, o0x7f94e1e8dc78;  0 drivers
+v0x55a2e70c19e0_0 .net "C", 15 0, L_0x55a2e70d5330;  1 drivers
+L_0x7f94e1e44378 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x55a2e70c1aa0_0 .net "F", 0 0, L_0x7f94e1e44378;  1 drivers
+S_0x55a2e7081300 .scope module, "ALU_OPP" "ALU_OPP" 2 104;
+ .timescale 0 0;
+    .port_info 0 /INPUT 16 "A"
+    .port_info 1 /INPUT 16 "B"
+    .port_info 2 /OUTPUT 16 "C"
+    .port_info 3 /OUTPUT 1 "F"
+o0x7f94e1e8ddc8 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+v0x55a2e70c1c10_0 .net "A", 15 0, o0x7f94e1e8ddc8;  0 drivers
+o0x7f94e1e8ddf8 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+v0x55a2e70c1d10_0 .net "B", 15 0, o0x7f94e1e8ddf8;  0 drivers
+v0x55a2e70c1df0_0 .net "C", 15 0, L_0x55a2e70d53d0;  1 drivers
+L_0x7f94e1e44408 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x55a2e70c1eb0_0 .net "F", 0 0, L_0x7f94e1e44408;  1 drivers
+L_0x7f94e1e443c0 .functor BUFT 1, C4<0000000000000000>, C4<0>, C4<0>, C4<0>;
+v0x55a2e70c1f70_0 .net *"_s0", 15 0, L_0x7f94e1e443c0;  1 drivers
+L_0x55a2e70d53d0 .arith/sub 16, L_0x7f94e1e443c0, o0x7f94e1e8ddc8;
+S_0x55a2e70482e0 .scope module, "ALU_OR" "ALU_OR" 2 2;
+ .timescale 0 0;
+    .port_info 0 /INPUT 16 "A"
+    .port_info 1 /INPUT 16 "B"
+    .port_info 2 /OUTPUT 16 "C"
+    .port_info 3 /OUTPUT 1 "F"
+o0x7f94e1e8df78 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+o0x7f94e1e8dfa8 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+L_0x55a2e70d5470 .functor OR 16, o0x7f94e1e8df78, o0x7f94e1e8dfa8, C4<0000000000000000>, C4<0000000000000000>;
+v0x55a2e70c20d0_0 .net "A", 15 0, o0x7f94e1e8df78;  0 drivers
+v0x55a2e70c21d0_0 .net "B", 15 0, o0x7f94e1e8dfa8;  0 drivers
+v0x55a2e70c22b0_0 .net "C", 15 0, L_0x55a2e70d5470;  1 drivers
+L_0x7f94e1e44450 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x55a2e70c2370_0 .net "F", 0 0, L_0x7f94e1e44450;  1 drivers
+S_0x55a2e70484d0 .scope module, "ALU_RST" "ALU_RST" 2 52;
+ .timescale 0 0;
+    .port_info 0 /INPUT 16 "A"
+    .port_info 1 /INPUT 16 "B"
+    .port_info 2 /OUTPUT 16 "C"
+    .port_info 3 /OUTPUT 1 "F"
+o0x7f94e1e8e0f8 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+v0x55a2e70c24e0_0 .net "A", 15 0, o0x7f94e1e8e0f8;  0 drivers
+o0x7f94e1e8e128 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+v0x55a2e70c25e0_0 .net "B", 15 0, o0x7f94e1e8e128;  0 drivers
+v0x55a2e70c26c0_0 .net "C", 15 0, L_0x55a2e70d5890;  1 drivers
+L_0x7f94e1e444e0 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x55a2e70c2780_0 .net "F", 0 0, L_0x7f94e1e444e0;  1 drivers
+v0x55a2e70c2840_0 .net *"_s2", 14 0, L_0x55a2e70d5650;  1 drivers
+L_0x7f94e1e44498 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x55a2e70c2970_0 .net *"_s4", 0 0, L_0x7f94e1e44498;  1 drivers
+L_0x55a2e70d5650 .part o0x7f94e1e8e0f8, 1, 15;
+L_0x55a2e70d5890 .concat [ 15 1 0 0], L_0x55a2e70d5650, L_0x7f94e1e44498;
+S_0x55a2e70a02a0 .scope module, "ALU_SUB" "ALU_SUB" 2 77;
+ .timescale 0 0;
+    .port_info 0 /INPUT 16 "A"
+    .port_info 1 /INPUT 16 "B"
+    .port_info 2 /OUTPUT 16 "C"
+    .port_info 3 /OUTPUT 1 "F"
+o0x7f94e1e8e2d8 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+v0x55a2e70c2ad0_0 .net "A", 15 0, o0x7f94e1e8e2d8;  0 drivers
+o0x7f94e1e8e308 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+v0x55a2e70c2bd0_0 .net "B", 15 0, o0x7f94e1e8e308;  0 drivers
+v0x55a2e70c2cb0_0 .net "C", 15 0, L_0x55a2e70d5ad0;  1 drivers
+v0x55a2e70c2d70_0 .net "F", 0 0, L_0x55a2e70d5a00;  1 drivers
+L_0x7f94e1e44570 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x55a2e70c2e30_0 .net *"_s10", 0 0, L_0x7f94e1e44570;  1 drivers
+v0x55a2e70c2f60_0 .net *"_s11", 16 0, L_0x55a2e70d5ec0;  1 drivers
+v0x55a2e70c3040_0 .net *"_s3", 16 0, L_0x55a2e70d5bf0;  1 drivers
+L_0x7f94e1e44528 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x55a2e70c3120_0 .net *"_s6", 0 0, L_0x7f94e1e44528;  1 drivers
+v0x55a2e70c3200_0 .net *"_s7", 16 0, L_0x55a2e70d5d40;  1 drivers
+L_0x55a2e70d5a00 .part L_0x55a2e70d5ec0, 16, 1;
+L_0x55a2e70d5ad0 .part L_0x55a2e70d5ec0, 0, 16;
+L_0x55a2e70d5bf0 .concat [ 16 1 0 0], o0x7f94e1e8e2d8, L_0x7f94e1e44528;
+L_0x55a2e70d5d40 .concat [ 16 1 0 0], o0x7f94e1e8e308, L_0x7f94e1e44570;
+L_0x55a2e70d5ec0 .arith/sub 17, L_0x55a2e70d5bf0, L_0x55a2e70d5d40;
+S_0x55a2e70a0420 .scope module, "ALU_XOR" "ALU_XOR" 2 32;
+ .timescale 0 0;
+    .port_info 0 /INPUT 16 "A"
+    .port_info 1 /INPUT 16 "B"
+    .port_info 2 /OUTPUT 16 "C"
+    .port_info 3 /OUTPUT 1 "F"
+o0x7f94e1e8e548 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+o0x7f94e1e8e578 .functor BUFZ 16, C4<zzzzzzzzzzzzzzzz>; HiZ drive
+L_0x55a2e70d5f60 .functor XOR 16, o0x7f94e1e8e548, o0x7f94e1e8e578, C4<0000000000000000>, C4<0000000000000000>;
+v0x55a2e70c33f0_0 .net "A", 15 0, o0x7f94e1e8e548;  0 drivers
+v0x55a2e70c34f0_0 .net "B", 15 0, o0x7f94e1e8e578;  0 drivers
+v0x55a2e70c35d0_0 .net "C", 15 0, L_0x55a2e70d5f60;  1 drivers
+L_0x7f94e1e445b8 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x55a2e70c3690_0 .net "F", 0 0, L_0x7f94e1e445b8;  1 drivers
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "ALU_frag.v";

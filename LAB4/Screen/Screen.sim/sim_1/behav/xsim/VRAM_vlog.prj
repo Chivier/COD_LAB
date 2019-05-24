@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Screen.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" \
+"../../../../Screen.srcs/sources_1/new/DCU.v" \
+"../../../../Screen.srcs/sources_1/new/VRAM.v" \
+"../../../../Screen.srcs/sources_1/new/PCU.v" \
+"../../../../Screen.srcs/sim_1/new/PCUsim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

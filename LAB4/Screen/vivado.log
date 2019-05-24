@@ -1,0 +1,239 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Apr 17 06:03:09 2019
+# Process ID: 13700
+# Current directory: F:/Study/Subject_L/COD_LAB/LAB4/Screen
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14268 F:\Study\Subject_L\COD_LAB\LAB4\Screen\Screen.xpr
+# Log file: F:/Study/Subject_L/COD_LAB/LAB4/Screen/vivado.log
+# Journal file: F:/Study/Subject_L/COD_LAB/LAB4/Screen\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 886.500 ; gain = 146.066
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'PCUsim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PCUsim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/DCU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCU
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/VRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCU
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/BCD27.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCD27
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sim_1/new/PCUsim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCUsim
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8e37be4a58354bdf9b66cc6c8be63ae9 --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot PCUsim_behav xil_defaultlib.PCUsim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 8 differs from formal bit length 12 for port Colorout [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sim_1/new/PCUsim.v:66]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BCD27
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module xil_defaultlib.VRAM
+Compiling module xil_defaultlib.DCU
+Compiling module xil_defaultlib.PCU
+Compiling module xil_defaultlib.PCUsim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot PCUsim_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.sim/sim_1/behav/xsim/xsim.dir/PCUsim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Apr 17 06:06:35 2019...
+run_program: Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 908.902 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '12' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "PCUsim_behav -key {Behavioral:sim_1:Functional:PCUsim} -tclbatch {PCUsim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source PCUsim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+xsim: Time (s): cpu = 00:00:13 ; elapsed = 00:00:05 . Memory (MB): peak = 950.852 ; gain = 41.949
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'PCUsim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 950.852 ; gain = 47.793
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 950.852 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'PCUsim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PCUsim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/DCU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCU
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/VRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCU
+ERROR: [VRFC 10-91] an is not declared [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:356]
+ERROR: [VRFC 10-91] an is not declared [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:388]
+ERROR: [VRFC 10-91] seg is not declared [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:389]
+ERROR: [VRFC 10-91] seg is not declared [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:391]
+ERROR: [VRFC 10-91] an is not declared [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:394]
+ERROR: [VRFC 10-91] seg is not declared [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:395]
+ERROR: [VRFC 10-91] seg is not declared [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:397]
+ERROR: [VRFC 10-91] an is not declared [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:400]
+ERROR: [VRFC 10-91] seg is not declared [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:401]
+ERROR: [VRFC 10-91] seg is not declared [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:403]
+ERROR: [VRFC 10-91] an is not declared [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:406]
+ERROR: [VRFC 10-91] seg is not declared [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:407]
+ERROR: [VRFC 10-91] seg is not declared [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:409]
+ERROR: [VRFC 10-91] an is not declared [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:412]
+ERROR: [VRFC 10-91] seg is not declared [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:413]
+ERROR: [VRFC 10-91] seg is not declared [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:415]
+ERROR: [VRFC 10-91] an is not declared [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:418]
+ERROR: [VRFC 10-91] seg is not declared [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:419]
+ERROR: [VRFC 10-91] seg is not declared [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v:421]
+INFO: [#UNDEF] Sorry, too many errors..
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'PCUsim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj PCUsim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/DCU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DCU
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/VRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/PCU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCU
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/new/BCD27.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCD27
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sim_1/new/PCUsim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PCUsim
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 8e37be4a58354bdf9b66cc6c8be63ae9 --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot PCUsim_behav xil_defaultlib.PCUsim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BCD27
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="a...
+Compiling module xil_defaultlib.dist_mem_gen_0
+Compiling module xil_defaultlib.VRAM
+Compiling module xil_defaultlib.DCU
+Compiling module xil_defaultlib.PCU
+Compiling module xil_defaultlib.PCUsim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot PCUsim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "PCUsim_behav -key {Behavioral:sim_1:Functional:PCUsim} -tclbatch {PCUsim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source PCUsim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'PCUsim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 954.922 ; gain = 4.070
+save_wave_config {F:/Study/Subject_L/COD_LAB/LAB4/Screen/PCUsim_behav.wcfg}
+add_files -fileset sim_1 -norecurse F:/Study/Subject_L/COD_LAB/LAB4/Screen/PCUsim_behav.wcfg
+set_property xsim.view F:/Study/Subject_L/COD_LAB/LAB4/Screen/PCUsim_behav.wcfg [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 17 06:12:20 2019...

@@ -1,0 +1,16 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.srcs/sources_1/new/ALU.v,1528287384,verilog,,F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.srcs/sources_1/new/BranchTest.v,,ALU,,,,,,,,
+F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.srcs/sources_1/new/BranchTest.v,1528120370,verilog,,F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.srcs/sources_1/new/DataRam.v,,ZeroTest,,,,,,,,
+F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.srcs/sources_1/new/CPU.v,1528375778,verilog,,,,CPU,,,,,,,,
+F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.srcs/sources_1/new/DataRam.v,1528375614,verilog,,F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.srcs/sources_1/new/Decode.v,,DataRam,,,,,,,,
+F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.srcs/sources_1/new/Decode.v,1528371276,verilog,,F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.srcs/sources_1/new/Forwarding.v,,Decode,,,,,,,,
+F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.srcs/sources_1/new/Forwarding.v,1528202336,verilog,,F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.srcs/sources_1/new/HazardDetector.v,,Forwarding,,,,,,,,
+F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.srcs/sources_1/new/HazardDetector.v,1528248832,verilog,,F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.srcs/sources_1/new/InstructionROM.v,,HazardDetector,,,,,,,,
+F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.srcs/sources_1/new/InstructionROM.v,1528375874,verilog,,F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.srcs/sources_1/new/Mux4.v,,InstructionROM,,,,,,,,
+F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.srcs/sources_1/new/Mux4.v,1528207650,verilog,,F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.srcs/sources_1/new/Reg.v,,Mux4,,,,,,,,
+F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.srcs/sources_1/new/Reg.v,1528207702,verilog,,F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.srcs/sources_1/new/Registers.v,,Reg,,,,,,,,
+F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.srcs/sources_1/new/Registers.v,1528302432,verilog,,F:/Study/Subject_L/COD_LAB/LAB6/pipeline/pipeline.srcs/sources_1/new/CPU.v,,Registers,,,,,,,,

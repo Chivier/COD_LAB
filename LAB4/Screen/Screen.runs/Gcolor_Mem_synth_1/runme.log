@@ -1,0 +1,437 @@
+
+*** Running vivado
+    with args -log Gcolor_Mem.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Gcolor_Mem.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Gcolor_Mem.tcl -notrace
+Command: synth_design -top Gcolor_Mem -part xc7a100tcsg324-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 4152 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 444.559 ; gain = 97.777
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Gcolor_Mem' [f:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/ip/Gcolor_Mem/synth/Gcolor_Mem.vhd:70]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_ADDR_WIDTH bound to: 8 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_DEPTH bound to: 256 - type: integer 
+	Parameter C_HAS_CLK bound to: 1 - type: integer 
+	Parameter C_HAS_D bound to: 1 - type: integer 
+	Parameter C_HAS_DPO bound to: 1 - type: integer 
+	Parameter C_HAS_DPRA bound to: 1 - type: integer 
+	Parameter C_HAS_I_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_CLK bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_RST bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_SRST bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_RST bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_SRST bound to: 0 - type: integer 
+	Parameter C_HAS_SPO bound to: 0 - type: integer 
+	Parameter C_HAS_WE bound to: 1 - type: integer 
+	Parameter C_MEM_INIT_FILE bound to: no_coe_file_loaded - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_MEM_TYPE bound to: 4 - type: integer 
+	Parameter C_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_QCE_JOINED bound to: 0 - type: integer 
+	Parameter C_QUALIFY_WE bound to: 0 - type: integer 
+	Parameter C_READ_MIF bound to: 0 - type: integer 
+	Parameter C_REG_A_D_INPUTS bound to: 0 - type: integer 
+	Parameter C_REG_DPRA_INPUT bound to: 0 - type: integer 
+	Parameter C_SYNC_ENABLE bound to: 1 - type: integer 
+	Parameter C_WIDTH bound to: 1024 - type: integer 
+	Parameter C_PARSER_TYPE bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'dist_mem_gen_v8_0_12' declared at 'f:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/ip/Gcolor_Mem/hdl/dist_mem_gen_v8_0_vhsyn_rfs.vhd:3237' bound to instance 'U0' of component 'dist_mem_gen_v8_0_12' [f:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/ip/Gcolor_Mem/synth/Gcolor_Mem.vhd:136]
+INFO: [Synth 8-256] done synthesizing module 'Gcolor_Mem' (4#1) [f:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/ip/Gcolor_Mem/synth/Gcolor_Mem.vhd:70]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1023]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1022]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1021]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1020]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1019]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1018]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1017]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1016]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1015]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1014]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1013]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1012]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1011]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1010]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1009]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1008]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1007]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1006]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1005]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1004]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1003]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1002]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1001]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[1000]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[999]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[998]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[997]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[996]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[995]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[994]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[993]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[992]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[991]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[990]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[989]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[988]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[987]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[986]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[985]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[984]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[983]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[982]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[981]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[980]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[979]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[978]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[977]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[976]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[975]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[974]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[973]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[972]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[971]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[970]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[969]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[968]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[967]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[966]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[965]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[964]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[963]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[962]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[961]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[960]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[959]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[958]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[957]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[956]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[955]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[954]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[953]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[952]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[951]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[950]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[949]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[948]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[947]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[946]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[945]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[944]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[943]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[942]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[941]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[940]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[939]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[938]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[937]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[936]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[935]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[934]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[933]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[932]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[931]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[930]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[929]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[928]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[927]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[926]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[925]
+WARNING: [Synth 8-3331] design sdpram has unconnected port qsdpo[924]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 504.516 ; gain = 157.734
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 504.516 ; gain = 157.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 504.516 ; gain = 157.734
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [f:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/ip/Gcolor_Mem/Gcolor_Mem_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [f:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.srcs/sources_1/ip/Gcolor_Mem/Gcolor_Mem_ooc.xdc] for cell 'U0'
+Parsing XDC File [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.runs/Gcolor_Mem_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.runs/Gcolor_Mem_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.101 . Memory (MB): peak = 835.063 ; gain = 1.430
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 835.063 ; gain = 488.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 835.063 ; gain = 488.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.runs/Gcolor_Mem_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 835.063 ; gain = 488.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 835.063 ; gain = 488.281
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	             1024 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module sdpram 
+Detailed RTL Component Info : 
++---Registers : 
+	             1024 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 835.063 ; gain = 488.281
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+-------------------------------------------------------------+----------------+----------------------+-------------------------------+
+|Module Name | RTL Object                                                  | Inference      | Size (Depth x Width) | Primitives                    | 
++------------+-------------------------------------------------------------+----------------+----------------------+-------------------------------+
+|U0          | synth_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/ram_reg | User Attribute | 256 x 1024           | RAM64X1D x 4  RAM64M x 1364   | 
++------------+-------------------------------------------------------------+----------------+----------------------+-------------------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 841.375 ; gain = 494.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 871.879 ; gain = 525.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+-------------------------------------------------------------+----------------+----------------------+-------------------------------+
+|Module Name | RTL Object                                                  | Inference      | Size (Depth x Width) | Primitives                    | 
++------------+-------------------------------------------------------------+----------------+----------------------+-------------------------------+
+|U0          | synth_options.dist_mem_inst/gen_sdp_ram.sdpram_inst/ram_reg | User Attribute | 256 x 1024           | RAM64X1D x 4  RAM64M x 1364   | 
++------------+-------------------------------------------------------------+----------------+----------------------+-------------------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 895.859 ; gain = 549.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:38 ; elapsed = 00:00:43 . Memory (MB): peak = 895.859 ; gain = 549.078
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:38 ; elapsed = 00:00:43 . Memory (MB): peak = 895.859 ; gain = 549.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:38 ; elapsed = 00:00:43 . Memory (MB): peak = 895.859 ; gain = 549.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:00:43 . Memory (MB): peak = 895.859 ; gain = 549.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 895.859 ; gain = 549.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 895.859 ; gain = 549.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |LUT3     |  1368|
+|2     |LUT6     |  1024|
+|3     |RAM64M   |  1364|
+|4     |RAM64X1D |     4|
+|5     |FDRE     |  1024|
++------+---------+------+
+
+Report Instance Areas: 
++------+----------------------------------+---------------------------+------+
+|      |Instance                          |Module                     |Cells |
++------+----------------------------------+---------------------------+------+
+|1     |top                               |                           |  4784|
+|2     |  U0                              |dist_mem_gen_v8_0_12       |  4784|
+|3     |    \synth_options.dist_mem_inst  |dist_mem_gen_v8_0_12_synth |  4784|
+|4     |      \gen_sdp_ram.sdpram_inst    |sdpram                     |  4784|
++------+----------------------------------+---------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 895.859 ; gain = 549.078
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3080 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:33 . Memory (MB): peak = 895.859 ; gain = 218.531
+Synthesis Optimization Complete : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 895.859 ; gain = 549.078
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1368 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'Gcolor_Mem' is not ideal for floorplanning, since the cellview 'sdpram' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1368 instances were transformed.
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 1364 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 4 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+15 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:45 ; elapsed = 00:00:51 . Memory (MB): peak = 909.574 ; gain = 574.266
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.runs/Gcolor_Mem_synth_1/Gcolor_Mem.dcp' has been generated.
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.runs/Gcolor_Mem_synth_1/Gcolor_Mem.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Gcolor_Mem_utilization_synth.rpt -pb Gcolor_Mem_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.323 . Memory (MB): peak = 911.039 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 12 00:50:52 2019...

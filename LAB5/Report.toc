@@ -1,0 +1,11 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}实验目的}{2}{section.1}
+\contentsline {section}{\numberline {2}实验环境}{3}{section.2}
+\contentsline {section}{\numberline {3}逻辑设计}{3}{section.3}
+\contentsline {section}{\numberline {4}仿真截图}{9}{section.4}
+\contentsline {section}{\numberline {5}性能评测截图}{10}{section.5}
+\contentsline {section}{\numberline {6}实验代码}{10}{section.6}
+\contentsline {subsection}{\numberline {6.1}烧写板版本代码}{10}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}模拟版本代码}{31}{subsection.6.2}
+\contentsline {section}{\numberline {7}总结}{41}{section.7}
+\contentsline {section}{\numberline {8}意见和建议}{41}{section.8}

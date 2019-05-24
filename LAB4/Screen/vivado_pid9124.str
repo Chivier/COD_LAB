@@ -1,0 +1,260 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 9124
+License: Customer
+
+Current time: 	Fri Apr 12 19:32:30 CST 2019
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 27 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	D:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	ASUS
+User home directory: C:/Users/ASUS
+User working directory: F:/Study/Subject_L/COD_LAB/LAB4/Screen
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2018.2
+RDI_DATADIR: D:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: D:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	F:/Study/Subject_L/COD_LAB/LAB4/Screen/vivado.log
+Vivado journal file location: 	F:/Study/Subject_L/COD_LAB/LAB4/Screen/vivado.jou
+Engine tmp dir: 	F:/Study/Subject_L/COD_LAB/LAB4/Screen/.Xil/Vivado-9124-DESKTOP-M866AGS
+
+Xilinx Environment Variables
+----------------------------
+ANDROID_SDK_HOME: C:\android-sdk-windows
+XILINX: D:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2018.2
+XILINX_SDK: D:/Xilinx/SDK/2018.2
+XILINX_VIVADO: D:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	213 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 561 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 78 MB (+79366kb) [00:00:10]
+// [Engine Memory]: 497 MB (+369990kb) [00:00:10]
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: F:\Study\Subject_L\COD_LAB\LAB4\Screen\Screen.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 588 MB. GUI used memory: 37 MB. Current time: 4/12/19 7:32:33 PM CST
+// [Engine Memory]: 599 MB (+80625kb) [00:00:16]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 648 MB (+19948kb) [00:00:18]
+// Tcl Message: open_project F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'. 
+// Project name: Screen; location: F:/Study/Subject_L/COD_LAB/LAB4/Screen; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:11 . Memory (MB): peak = 888.906 ; gain = 139.539 
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// PAPropertyPanels.initPanels (PCU.v) elapsed time: 0.2s
+// Elapsed time: 43 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PCU (PCU.v)]", 1, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PCU (PCU.v)]", 1, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 25 seconds
+selectCodeEditor("PCU.v", 45, 460); // ce (w, ck)
+selectCodeEditor("PCU.v", 45, 460, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("PCU.v", 19, 278); // ce (w, ck)
+selectCodeEditor("PCU.v", 61, 340); // ce (w, ck)
+selectCodeEditor("PCU.v", 61, 340, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VRAM (VRAM.v)]", 3, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VRAM (VRAM.v)]", 3, false, false, false, false, false, true); // B (D, ck) - Double Click
+// [Engine Memory]: 682 MB (+1982kb) [00:01:55]
+// HMemoryUtils.trashcanNow. Engine heap size: 682 MB. GUI used memory: 43 MB. Current time: 4/12/19 7:34:18 PM CST
+// Elapsed time: 53 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dist_mem_gen_0 (dist_mem_gen_0.xci)]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dist_mem_gen_0 (dist_mem_gen_0.xci)]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// O (ck):  Re-customize IP : addNotify
+// r (ck): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // O (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 708 MB. GUI used memory: 50 MB. Current time: 4/12/19 7:35:13 PM CST
+setText("Component Name", "dist_mem_gen_0"); // z (bX, r)
+selectCodeEditor("VRAM.v", 1043, 209); // ce (w, ck)
+selectCodeEditor("VRAM.v", 604, 235); // ce (w, ck)
+selectCodeEditor("VRAM.v", 359, 121); // ce (w, ck)
+selectCodeEditor("VRAM.v", 338, 109); // ce (w, ck)
+// Elapsed time: 15 seconds
+dismissDialog("Re-customize IP"); // r (ck)
+selectCodeEditor("VRAM.v", 504, 104); // ce (w, ck)
+selectCodeEditor("VRAM.v", 310, 308); // ce (w, ck)
+typeControlKey((HResource) null, "VRAM.v", 'v'); // ce (w, ck)
+selectCodeEditor("VRAM.v", 28, 352); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("VRAM.v", 265, 358); // ce (w, ck)
+// Elapsed time: 24 seconds
+selectCodeEditor("VRAM.v", 78, 177); // ce (w, ck)
+typeControlKey((HResource) null, "VRAM.v", 'c'); // ce (w, ck)
+selectCodeEditor("VRAM.v", 54, 337); // ce (w, ck)
+typeControlKey((HResource) null, "VRAM.v", 'v'); // ce (w, ck)
+typeControlKey(null, null, 'z');
+// Elapsed time: 28 seconds
+selectCodeEditor("VRAM.v", 270, 390); // ce (w, ck)
+selectCodeEditor("VRAM.v", 322, 335); // ce (w, ck)
+selectCodeEditor("VRAM.v", 290, 383); // ce (w, ck)
+selectCodeEditor("VRAM.v", 206, 370); // ce (w, ck)
+selectCodeEditor("VRAM.v", 129, 386); // ce (w, ck)
+// Elapsed time: 26 seconds
+selectCodeEditor("VRAM.v", 423, 393); // ce (w, ck)
+// [GUI Memory]: 82 MB (+336kb) [00:05:20]
+// Elapsed time: 21 seconds
+selectCodeEditor("VRAM.v", 530, 381); // ce (w, ck)
+selectCodeEditor("VRAM.v", 449, 390); // ce (w, ck)
+selectCodeEditor("VRAM.v", 449, 390, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dist_mem_gen_0 (dist_mem_gen_0.xci)]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dist_mem_gen_0 (dist_mem_gen_0.xci)]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// O (ck):  Re-customize IP : addNotify
+// [GUI Memory]: 87 MB (+422kb) [00:06:02]
+// r (ck): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // O (ck)
+applyEscape(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, (String) null); // B (D, ck)
+dismissDialog("Re-customize IP"); // r (ck)
+selectCodeEditor("VRAM.v", 284, 386); // ce (w, ck)
+selectCodeEditor("VRAM.v", 481, 383); // ce (w, ck)
+selectCodeEditor("VRAM.v", 496, 388); // ce (w, ck)
+selectCodeEditor("VRAM.v", 496, 380); // ce (w, ck)
+selectCodeEditor("VRAM.v", 511, 361); // ce (w, ck)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 235ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 27 seconds
+typeControlKey((HResource) null, "VRAM.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "VRAM.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "VRAM.v", 'v'); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "VRAM.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "VRAM.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "VRAM.v", 'v'); // ce (w, ck)
+// [GUI Memory]: 92 MB (+910kb) [00:07:04]
+// Elapsed time: 16 seconds
+selectCodeEditor("VRAM.v", 395, 433); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 22 seconds
+selectCodeEditor("VRAM.v", 409, 119); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PCU.v", 1); // k (j, ck)
+selectCodeEditor("PCU.v", 220, 325); // ce (w, ck)
+selectCodeEditor("PCU.v", 311, 140); // ce (w, ck)
+selectCodeEditor("PCU.v", 137, 116); // ce (w, ck)
+selectCodeEditor("PCU.v", 248, 129); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectCodeEditor("PCU.v", 211, 150); // ce (w, ck)
+// Elapsed time: 25 seconds
+selectCodeEditor("PCU.v", 235, 350); // ce (w, ck)
+// [GUI Memory]: 98 MB (+1708kb) [00:08:55]
+// Elapsed time: 25 seconds
+selectCodeEditor("PCU.v", 247, 484); // ce (w, ck)
+// Elapsed time: 46 seconds
+selectCodeEditor("PCU.v", 328, 437); // ce (w, ck)
+selectCodeEditor("PCU.v", 326, 434); // ce (w, ck)
+selectCodeEditor("PCU.v", 317, 458); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 718 MB (+1178kb) [00:13:08]
+// Elapsed time: 293 seconds
+selectCodeEditor("PCU.v", 266, 481); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("PCU.v", 264, 465); // ce (w, ck)
+selectCodeEditor("PCU.v", 204, 511); // ce (w, ck)
+// Elapsed time: 75 seconds
+selectCodeEditor("PCU.v", 204, 511); // ce (w, ck)
+// Elapsed time: 301 seconds
+selectCodeEditor("PCU.v", 203, 226); // ce (w, ck)
+selectCodeEditor("PCU.v", 156, 123); // ce (w, ck)
+// Elapsed time: 23 seconds
+selectCodeEditor("PCU.v", 135, 406); // ce (w, ck)
+// [GUI Memory]: 104 MB (+936kb) [00:22:47]
+// Elapsed time: 59 seconds
+selectCodeEditor("PCU.v", 168, 362); // ce (w, ck)
+selectCodeEditor("PCU.v", 267, 294); // ce (w, ck)
+selectCodeEditor("PCU.v", 241, 306); // ce (w, ck)
+selectCodeEditor("PCU.v", 168, 374); // ce (w, ck)
+selectCodeEditor("PCU.v", 145, 313); // ce (w, ck)
+selectCodeEditor("PCU.v", 146, 313); // ce (w, ck)
+selectCodeEditor("PCU.v", 150, 314); // ce (w, ck)
+selectCodeEditor("PCU.v", 253, 191); // ce (w, ck)
+selectCodeEditor("PCU.v", 148, 422); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "VRAM.v", 2); // k (j, ck)
+selectCodeEditor("VRAM.v", 45, 144); // ce (w, ck)
+typeControlKey((HResource) null, "VRAM.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "VRAM.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PCU.v", 1); // k (j, ck)
+selectCodeEditor("PCU.v", 173, 417); // ce (w, ck)
+selectCodeEditor("PCU.v", 173, 422); // ce (w, ck)
+selectCodeEditor("PCU.v", 103, 463); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 131 seconds
+selectCodeEditor("PCU.v", 4, 26); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("PCU.v", 147, 400); // ce (w, ck)
+selectCodeEditor("PCU.v", 160, 369); // ce (w, ck)
+// [GUI Memory]: 110 MB (+1121kb) [00:28:41]
+// [GUI Memory]: 117 MB (+1191kb) [00:28:56]
+// [GUI Memory]: 124 MB (+872kb) [-05:-33:-09]
+// [GUI Memory]: 131 MB (+496kb) [-05:-32:-54]
+// [GUI Memory]: 138 MB (+603kb) [-04:-46:-13]
+// [GUI Memory]: 147 MB (+2177kb) [-04:-45:-53]
+// [GUI Memory]: 154 MB (+62kb) [-04:-42:-07]
+// [Engine Memory]: 771 MB (+17732kb) [-04:-18:-47]
+// [GUI Memory]: 162 MB (+483kb) [-04:-18:-17]
+// [GUI Memory]: 171 MB (+939kb) [-04:-17:-57]
+// [GUI Memory]: 182 MB (+2079kb) [-04:-17:-32]

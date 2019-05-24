@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Apr 17 06:03:09 2019
+# Process ID: 13700
+# Current directory: F:/Study/Subject_L/COD_LAB/LAB4/Screen
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14268 F:\Study\Subject_L\COD_LAB\LAB4\Screen\Screen.xpr
+# Log file: F:/Study/Subject_L/COD_LAB/LAB4/Screen/vivado.log
+# Journal file: F:/Study/Subject_L/COD_LAB/LAB4/Screen\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/Study/Subject_L/COD_LAB/LAB4/Screen/Screen.xpr
+launch_simulation
+source PCUsim.tcl
+close_sim
+launch_simulation
+launch_simulation
+source PCUsim.tcl
+save_wave_config {F:/Study/Subject_L/COD_LAB/LAB4/Screen/PCUsim_behav.wcfg}
+add_files -fileset sim_1 -norecurse F:/Study/Subject_L/COD_LAB/LAB4/Screen/PCUsim_behav.wcfg
+set_property xsim.view F:/Study/Subject_L/COD_LAB/LAB4/Screen/PCUsim_behav.wcfg [get_filesets sim_1]
+close_sim

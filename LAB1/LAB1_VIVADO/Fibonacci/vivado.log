@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Mar 21 21:25:39 2019
+# Process ID: 2856
+# Current directory: F:/Study/Subject_L/COD_LAB/LAB1/Fibonacci
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12300 F:\Study\Subject_L\COD_LAB\LAB1\Fibonacci\Fibonacci.xpr
+# Log file: F:/Study/Subject_L/COD_LAB/LAB1/Fibonacci/vivado.log
+# Journal file: F:/Study/Subject_L/COD_LAB/LAB1/Fibonacci\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/Study/Subject_L/COD_LAB/LAB1/Fibonacci/Fibonacci.xpr
+Scanning sources...
+FFinished scanning sourcesIINFO: [IP_Flow 19-234] Refreshing IP repositoriesIINFO: [IP_Flow 19-1704] No user IP repositories specifiedIINFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.oopen_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 857.664 ; gain = 95.746
+update_compile_order -fileset sources_1
+create_project Adder F:/Study/Subject_L/COD_LAB/LAB1/Adder -part xc7a100tcsg324-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 926.961 ; gain = 39.137
+current_project Fibonacci
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 22 00:22:08 2019...
+Finished Parsing XDC File [F:/Study/Subject_L/COD_LAB/LAB1/Fibonacci/Nexys4DDR_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1298.340 ; gain = 408.758
+update_compile_order -fileset sources_1
+report_utilization -name utilization_1
+report_utilization: Time (s): cpu = 00:00:10 ; elapsed = 00:00:03 . Memory (MB): peak = 1319.297 ; gain = 7.543
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 21 21:29:24 2019...

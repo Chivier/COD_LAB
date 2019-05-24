@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB1/Adder/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB1/Adder/Adder.srcs/sources_1/new/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB1/Adder/Adder.srcs/sim_1/new/Adder_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_tb

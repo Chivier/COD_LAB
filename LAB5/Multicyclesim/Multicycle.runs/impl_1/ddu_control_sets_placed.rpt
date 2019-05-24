@@ -1,0 +1,95 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sun May 12 07:58:09 2019
+| Host         : DESKTOP-M866AGS running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file ddu_control_sets_placed.rpt
+| Design       : ddu
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    28 |
+| Unused register locations in slices containing registers |    92 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |           13 |
+|      6 |            1 |
+|      8 |            2 |
+|    16+ |           12 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             450 |          106 |
+| No           | No                    | Yes                    |              26 |            6 |
+| No           | Yes                   | No                     |              74 |           13 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             126 |           17 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------------------+---------------------------------------------------------------------------------------------------------+-------------------------------------------+------------------+----------------+
+|                Clock Signal                |                                              Enable Signal                                              |              Set/Reset Signal             | Slice Load Count | Bel Load Count |
++--------------------------------------------+---------------------------------------------------------------------------------------------------------+-------------------------------------------+------------------+----------------+
+|  CPU_sim/ctrl/FSM_onehot_state_reg_n_1_[4] |                                                                                                         | CPU_sim/ctrl/out[3]                       |                1 |              2 |
+|  CPU_sim/ctrl/FSM_onehot_state_reg_n_1_[0] |                                                                                                         | CPU_sim/ctrl/reg_write_reg_i_1_n_1        |                1 |              2 |
+|  CPU_sim/ctrl/FSM_onehot_state_reg_n_1_[0] |                                                                                                         | CPU_sim/ctrl/FSM_onehot_state_reg_n_1_[5] |                1 |              2 |
+|  CPU_sim/ctrl/FSM_onehot_state_reg_n_1_[0] |                                                                                                         | CPU_sim/ctrl/ins_or_data_reg_i_1_n_1      |                1 |              2 |
+|  CPU_sim/ctrl/FSM_onehot_state_reg_n_1_[0] |                                                                                                         | CPU_sim/ctrl/out[0]                       |                1 |              2 |
+|  CPU_sim/ctrl/alu_srca_reg/G0              |                                                                                                         |                                           |                1 |              2 |
+|  CPU_sim/ctrl/pc_source_reg[0]/G0          |                                                                                                         |                                           |                1 |              2 |
+|  CPU_sim/ctrl/pc_write_cond_reg/G0         |                                                                                                         |                                           |                1 |              2 |
+|  CPU_sim/ctrl/alu_srcb_reg/G0              |                                                                                                         |                                           |                1 |              2 |
+|  CPU_sim/ctrl/mem_read_reg/G0              |                                                                                                         |                                           |                1 |              2 |
+|  CPU_sim/ctrl/pc_source_reg[1]/G0          |                                                                                                         |                                           |                1 |              2 |
+|  CPU_sim/ctrl/regdst_reg/G0                |                                                                                                         |                                           |                1 |              2 |
+|  CPU_sim/ctrl/pc_write_reg/G0              |                                                                                                         |                                           |                1 |              2 |
+|  clk_board_IBUF_BUFG                       |                                                                                                         | rst_IBUF                                  |                2 |              6 |
+|  CPU_sim/ir/E[0]                           |                                                                                                         |                                           |                1 |              8 |
+|  clk_board_IBUF_BUFG                       |                                                                                                         |                                           |                2 |              8 |
+|  CPU_sim/ctrl/next_state                   |                                                                                                         |                                           |                3 |             20 |
+|  clk_BUFG                                  |                                                                                                         | rst_IBUF                                  |                4 |             20 |
+|  clk_BUFG                                  | CPU_sim/ctrl/E[0]                                                                                       | rst_IBUF                                  |                9 |             62 |
+|  mem_read                                  |                                                                                                         |                                           |               13 |             64 |
+|  n_0_701_BUFG                              |                                                                                                         |                                           |               23 |             64 |
+|  ir_write                                  |                                                                                                         |                                           |               16 |             64 |
+|  clk_board_IBUF_BUFG                       |                                                                                                         | segmental/clear                           |                8 |             64 |
+|  clk_board_IBUF_BUFG                       | p_0_in                                                                                                  | rst_IBUF                                  |                8 |             64 |
+|  clk_BUFG                                  |                                                                                                         |                                           |               40 |            206 |
+|  clk_BUFG                                  | CPU_sim/memory/memorys/U0/synth_options.dist_mem_inst/gen_dp_ram.dpram_inst/ram_reg_128_255_0_0_i_1_n_1 |                                           |               32 |            256 |
+|  clk_BUFG                                  | CPU_sim/memory/memorys/U0/synth_options.dist_mem_inst/gen_dp_ram.dpram_inst/ram_reg_0_127_0_0_i_1_n_1   |                                           |               32 |            256 |
+|  clk_BUFG                                  | CPU_sim/ctrl/reg_write                                                                                  |                                           |               18 |            288 |
++--------------------------------------------+---------------------------------------------------------------------------------------------------------+-------------------------------------------+------------------+----------------+
+
+

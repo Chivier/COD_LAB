@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB3/Regfile/Regfile.srcs/sources_1/new/Regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Study/Subject_L/COD_LAB/LAB3/Regfile/Regfile.srcs/sim_1/new/RegSim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegSim

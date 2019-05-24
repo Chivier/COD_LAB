@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="PCUsim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="PCUsim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2300000fs"></ZoomStartTime>
+      <ZoomEndTime time="264900001fs"></ZoomEndTime>
+      <Cursor1Time time="110000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="108"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/PCUsim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PCUsim/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PCUsim/Color" type="array">
+      <obj_property name="ElementShortName">Color[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Color[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PCUsim/Dir" type="array">
+      <obj_property name="ElementShortName">Dir[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Dir[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PCUsim/DRAW" type="logic">
+      <obj_property name="ElementShortName">DRAW</obj_property>
+      <obj_property name="ObjectShortName">DRAW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PCUsim/Penx" type="array">
+      <obj_property name="ElementShortName">Penx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Penx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PCUsim/Peny" type="array">
+      <obj_property name="ElementShortName">Peny[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Peny[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PCUsim/Colorout" type="array">
+      <obj_property name="ElementShortName">Colorout[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Colorout[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PCUsim/O_hs" type="logic">
+      <obj_property name="ElementShortName">O_hs</obj_property>
+      <obj_property name="ObjectShortName">O_hs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PCUsim/O_vs" type="logic">
+      <obj_property name="ElementShortName">O_vs</obj_property>
+      <obj_property name="ObjectShortName">O_vs</obj_property>
+   </wvobject>
+</wave_config>
